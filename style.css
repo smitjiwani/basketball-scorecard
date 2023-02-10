@@ -1,0 +1,66 @@
+.scorecard {
+  display: flex;
+  justify-content: center;
+  background-color: #1b244a;
+  max-width: 500px;
+  margin: auto;
+}
+
+.home {
+  margin: 40px;
+}
+.away {
+  margin: 40px;
+}
+
+#homeScore {
+  font-family: "Orbitron", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+.homeScoreTitle {
+  font-family: "Verdana";
+  font-style: normal;
+  color: white;
+  text-align: center;
+}
+
+.awayScoreTitle {
+  font-family: "Verdana";
+  font-style: normal;
+  color: white;
+  text-align: center;
+
+}
+
+#awayScore {
+  font-family: "Orbitron", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  border-radius: 12px;
+  margin-top: 25px;
+}
+
+.btn__groups {
+  margin-top: 20px;
+}
+
+#btn {
+  font-family: "Orbitron", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  color: white;
+  border: 1px solid white;
+  background-color: #1b244a;
+  border-radius: 10px;
+  margin: 3px;
+  cursor: pointer;
+}
